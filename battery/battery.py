@@ -1,9 +1,5 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 
 class Battery(ABC):
-    def __init__(self) -> None:
+    def needs_service(self):
         pass
-
-    @abstractmethod
-    def needs_service(self) -> bool:
-        return super().needs_service
