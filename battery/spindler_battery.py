@@ -1,5 +1,4 @@
-from battery import Battery
-from datetime import datetime
+from battery.battery import Battery
 from dateutil.relativedelta import relativedelta
 
 class SpindlerBattery(Battery):
